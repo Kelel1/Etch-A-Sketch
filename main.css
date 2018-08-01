@@ -1,0 +1,12 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;   
+    
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    border: 1px sold blue;
+    background-color: lightblue;    
+}
