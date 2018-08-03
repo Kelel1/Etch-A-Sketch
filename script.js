@@ -1,11 +1,24 @@
 const container = document.querySelector('#grid-container');
+const TOTAL_PIXELS = 620;
 
-for(i = 0; i < 256; i++) {
+for (i = 0; i < 1600; i++) {
     const content = document.createElement('div');
     content.classList.add('content'); 
     content.className = 'grid-block';       
     container.appendChild(content);
 }
+var i = 0;
+var value = " ";
+while (i < 40) {
+    //var value = " ";
+    value += "auto " 
+    // container.style.gridTemplateColumns = value;
+    i++;
+    // console.log(value);
+}
+container.style.gridTemplateColumns = value;
+//console.log(value);
+
 
 
 /** Add hover event listener to each block in grid */
