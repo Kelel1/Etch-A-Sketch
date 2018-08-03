@@ -15,7 +15,7 @@ for (i = 0; i < block.length; i++) {
 
     block[i].addEventListener('mouseover', (play) => {
 
-        play.target.style.backgroundColor = "black";
+        play.target.style.backgroundColor = "blue";
 
     })
 }
