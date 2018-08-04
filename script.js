@@ -7,6 +7,9 @@ for (i = 0; i < 1600; i++) {
     content.className = 'grid-block';       
     container.appendChild(content);
 }
+
+
+
 var i = 0;
 var value = " ";
 while (i < 40) {
@@ -30,6 +33,19 @@ for (i = 0; i < block.length; i++) {
 
         play.target.style.backgroundColor = "blue";
 
-    })
-}
+    });
+};
+
+/** Reset display */
+const reset = document.getElementById('reset');   
+
+reset.addEventListener('click', (toReset) => {
+    for (i = 0; i < block.length; i++) { 
+
+        block[i].style.backgroundColor = "lightblue";
+    }
+
+});
+
+/** Adjust number of squares */
 
