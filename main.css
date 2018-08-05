@@ -1,18 +1,12 @@
 #grid-container {
-    display: grid;
-    /* grid-template-columns: auto auto auto auto auto auto auto auto
-                           auto auto auto auto auto auto auto auto;  320*/ 
+    display: grid;     
     padding: 20vh;    
     max-width: 620px;
     max-height: 620px;
     margin: auto;  
 }
 
-.grid-block {
-    height: 15.5px;
-    width: 15.5px;    
-    background-color: lightblue; 
-    border: 50px;
-    border-color: black black;
+.grid-block {    
+    background-color: lightblue;    
     margin: auto;   
 }
