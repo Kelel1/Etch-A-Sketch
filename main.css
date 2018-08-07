@@ -1,12 +1,36 @@
-#grid-container {
-    display: grid;     
-    padding: 20vh;    
-    max-width: 620px;
-    max-height: 620px;
-    margin: auto;  
+body{
+    background-color: rgb(26, 104, 114);
+    margin: auto 80px auto 70px;    
+    padding: 30px;      
+}
+
+.frame {
+    border: 2px solid rgb(128, 36, 36);
+    border-radius: 50px;
+    background-color: rgb(116, 31, 31);
+    margin: 0 10vw;
+    padding: 100px 0px 20px 5px;
 }
 
 .grid-block {    
-    background-color: lightblue;    
-    margin: auto;   
+    background-color: lightgray;    
+    margin: auto; 
 }
+
+#grid-container {
+    display: grid;               
+    max-width: 620px;
+    max-height: 620px;    
+    margin: auto;  
+    border:1px solid  rgb(95, 26, 26);    
+    
+}
+
+#reset {
+    background-color: lightgray;  
+    margin: 5% 0 0 47%;
+    width: 80px;
+    height: 80px;    
+    border-radius: 50%;        
+}
+
