@@ -28,8 +28,6 @@ function createGrid(totalSquares) {
     
 }
 
-
-
 /** Add hover event listener to each block in grid */
 const block = document.getElementsByClassName('grid-block');
 
@@ -39,7 +37,7 @@ function setEventListener() {
 
         block[i].addEventListener('mouseover', (play) => {
 
-            play.target.style.backgroundColor = "blue";
+            play.target.style.backgroundColor = "gray";
 
         });
     };
@@ -51,12 +49,7 @@ const reset = document.getElementById('reset');
         var div = document.getElementById('grid-container');
         while(div.firstChild){
             div.removeChild(div.firstChild);
-        }
-
-        for (i = 0; i < block.length; i++) { 
-
-            block[i].style.backgroundColor = "lightblue";
-        }
+        }        
 
         let total = setTotalSquares();
         
